@@ -1,0 +1,139 @@
+html, body{
+	font-family: 'Raleway';
+	background-color: #0C004A;
+	height:100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fjalla One';
+}
+
+h1{
+	font-size: 5em;
+}
+
+h2{
+	font-size: 3em;
+}
+
+
+#container{
+	width: 960px;
+	margin-top:50px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+	
+	background: white;
+
+
+	-webkit-box-shadow: 0 0 20px 4px rgba(0,0,0,25);
+	box-shadow: 0 0 20px 4px rgba(0,0,0,25);
+
+}
+
+#siteContent{
+	min-height: 100%;
+}
+
+#preHeader{
+	width:960px;
+	height:0px;
+}
+
+#heading{
+	background: white;
+	height: 100px;
+}
+
+#heading.affix {
+    position: fixed;
+    top: 0;
+    width: 960px;
+    z-index:10;
+    -webkit-box-shadow: 0 3px 8px 0 rgba(0,0,0,255);
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,255);
+}
+
+#heading img{
+	text-align: left;
+	display: block;
+	height:100px;
+	width: 200px;
+}
+
+.content{
+	padding: 5px;
+}
+
+#container .content:nth-child(even) {
+	background: #FAFAFA;
+}
+
+
+#plot{
+	background-color: white;
+	background-image:url("../img/eu_tr.jpg");
+	background-attachment: fixed;
+	background-position: 0px 0px;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+	height:100%;
+	width:100%;
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+	display: table;
+
+	-webkit-box-shadow: 0 0 20px 4px rgba(0,0,0,255);
+	box-shadow: 0 0 20px 4px rgba(0,0,0,255);
+}
+
+#plot table{
+	height:100%;
+	width:100%;
+}
+
+#plot .plotText{
+	text-align: center;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#plot .plotText p{
+	font-size: 1.3em;
+}
+
+#plot a{
+	font-size: 2.5em;
+	color:gray;
+}
+
+#plot a span{
+	font-size: 5em;
+	color:gray;
+}
+
+#plot h4{
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+}
+
+.logoImg{
+	height:4em;
+	margin: 3px;
+}
+
+.nav li a{
+	font-size: 1.7em;
+}
